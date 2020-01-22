@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vix Video Info</title>
+</head>
+
+<body>
+    <h1>Video Info</h1>
+    <form action="">
+        <div>
+            <label for="">Select a video</label>
+            <input type="file" name="" id="" accept="video/*" />
+        </div>
+        <button type="submit">Get Info</button>
+    </form>
+
+    <script>
+        document.querySelector('form').addEventListener('submit', (event) => {
+            event.preventDefault();
+            
+ // .file always return something like an array
+const file = document.querySelector('input').files[0]; // always take the first file
+        });
+    </script>
+</body>
+
+</html>

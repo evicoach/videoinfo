@@ -1,0 +1,14 @@
+{
+  "name": "videoinfo",
+  "version": "1.0.0",
+  "description": "An electron app the displays the details of any selected video",
+  "main": "app.js",
+  "scripts": {
+    "electron": "electron ."
+  },
+  "author": "Evi Owhotemu",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^7.1.9"
+  }
+}
